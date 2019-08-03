@@ -87,14 +87,14 @@ section {
 }
 
 .logo-color {
-    position: relative;
+    position: absolute;
     height: 40vh;
     
     
 }
 
 .logo {
-    position: absolute;
+    position: relative;
     height: 40vh;
     
     &:hover {
