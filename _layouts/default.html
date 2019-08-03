@@ -28,7 +28,7 @@
 		<header style="background-image: url('{% include relative-src.html src=page.background_image_path %}');" {% if page.large_header %}class="main-hero"{% endif %}>
 			<div class="container">
 				<!--<h1><a href="{{ site.baseurl }}/">{{ site.data.company.title }}</a></h1>-->
-				<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/uploads/logo_plus_title.svg" class="logo" alt="logo"/><!--<img src="{{ site.baseurl }}/logo-yinyang.svg" class="logo-color" alt="logo"/>--></a>
+				<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/uploads/logo_plus_title.svg" class="logo" alt="logo"/><<img src="{{ site.baseurl }}/uploads/logo_plus_title_color.svg" class="logo-color" alt="logo"/></a>
 				<nav>
 					<ul>
 						{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
