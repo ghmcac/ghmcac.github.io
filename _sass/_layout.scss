@@ -93,6 +93,8 @@ section {
 .logo {
     position: relative;
     height: 40vh;
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
     
     &.main-hero {
 		height: 60vh;
@@ -100,7 +102,6 @@ section {
 		
     &:hover {
         //visibility: hidden;
-        transition: 0.2s ease;
         opacity: 0;
         filter: alpha(opacity=0);
     }
