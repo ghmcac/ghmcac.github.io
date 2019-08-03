@@ -37,7 +37,7 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /uploads/logo.png
+      background_image_path: /uploads/logo.svg
       image: /uploads/building.jpg
   -
     scope:
