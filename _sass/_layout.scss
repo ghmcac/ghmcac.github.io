@@ -65,6 +65,10 @@ footer {
 		&.active {
 			border-bottom: 2px solid;
 		}
+		
+	    &:hover {
+		color: #3c2857;
+	    }
 	}
 }
 
@@ -80,6 +84,22 @@ section {
 	@media (min-width: $mobile-break) {
 		padding: 80px 40px;
 	}
+}
+
+.logo-color {
+    position: relative;
+    height: 20vh;
+    
+    &:hover {
+        //visibility: hidden;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+
+.logo {
+    position: absolute;
+    height: 20vh;
 }
 
 .content img {
