@@ -102,8 +102,8 @@ section {
     -webkit-transition-delay: 1s;
     /* Standard syntax */
     transition-property: opacity;
-    transition-duration: 5s;
-    transition-timing-function: ease-in;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
     transition-delay: 0s;
     
     &.main-hero {
