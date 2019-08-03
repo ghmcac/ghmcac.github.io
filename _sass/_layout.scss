@@ -31,11 +31,6 @@ header {
 		background-size: cover;
 		background-position: center;
 
-		&.main-hero {
-			height: auto;
-			background-position: center;
-		}
-
 		.container {
 			text-align: center;
 		}
@@ -86,7 +81,7 @@ section {
 	}
 }
 
-.logo-color {
+#logo-color {
     position: absolute;
     height: 40vh;
     
@@ -95,7 +90,7 @@ section {
 	}
 }
 
-.logo {
+#logo {
     position: relative;
     height: 40vh;
     
