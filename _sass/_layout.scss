@@ -95,8 +95,16 @@ section {
     height: 40vh;
     opacity: 100;
     filter: alpha(opacity=100);
-    transition: opacity 20s ease-in;
-    -webkit-transition: 0.2s ease;
+    /* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 1s;
+    /* Standard syntax */
+    transition-property: opacity;
+    transition-duration: 20s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
     
     &.main-hero {
 		height: 60vh;
