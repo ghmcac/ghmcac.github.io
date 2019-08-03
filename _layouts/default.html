@@ -29,8 +29,13 @@
 			<div class="container">
 				<!--<h1><a href="{{ site.baseurl }}/">{{ site.data.company.title }}</a></h1>-->
 				<a href="{{ site.baseurl }}/">
+				    {% if page.large_header %}
+				    <img src="{{ site.baseurl }}/uploads/logo_plus_title_color.svg" class="logo-color main-hero" alt="logo"/>
+				    <img src="{{ site.baseurl }}/uploads/logo_plus_title_white_leaves.svg" class="logo main-hero" alt="logo"/>
+				    {% else %}
 				    <img src="{{ site.baseurl }}/uploads/logo_plus_title_color.svg" class="logo-color" alt="logo"/>
 				    <img src="{{ site.baseurl }}/uploads/logo_plus_title_white_leaves.svg" class="logo" alt="logo"/>
+				    {% endif %}
 				</a>
 				<nav>
 					<ul>
