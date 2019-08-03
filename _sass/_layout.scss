@@ -90,13 +90,19 @@ section {
     position: absolute;
     height: 40vh;
     
-    
+    &.main-hero {
+		height: 60vh;
+	}
 }
 
 .logo {
     position: relative;
     height: 40vh;
     
+    &.main-hero {
+		height: 60vh;
+	}
+		
     &:hover {
         //visibility: hidden;
         opacity: 0;
