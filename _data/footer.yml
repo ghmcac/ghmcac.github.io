@@ -4,27 +4,27 @@
       link: /
     - name: About
       link: /about/
-    - name: Services
+    - name: Membership
       link: /services/
+    - name: Member Artists
+      link: /advice/
     - name: Contact
       link: /contact/
-    - name: Advice
-      link: /advice/
 - title: Social
   links:
     - name: Facebook
-      link: http://facebook.com/cloudcannon/
+      link: 'http://facebook.com/cloudcannon/'
       social_icon: Facebook
       new_window: true
     - name: Twitter
-      link: http://twitter.com/cloudcannon
+      link: 'http://twitter.com/cloudcannon'
       social_icon: Twitter
       new_window: true
     - name: Instagram
-      link: http://instagram.com/
+      link: 'http://instagram.com/'
       social_icon: Instagram
       new_window: true
     - name: LinkedIn
-      link: https://nz.linkedin.com/company/cloud-cannon/
+      link: 'https://nz.linkedin.com/company/cloud-cannon/'
       social_icon: LinkedIn
       new_window: true
