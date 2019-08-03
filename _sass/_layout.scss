@@ -102,9 +102,9 @@ section {
     -webkit-transition-delay: 1s;
     /* Standard syntax */
     transition-property: opacity;
-    transition-duration: 20s;
+    transition-duration: 5s;
     transition-timing-function: ease-in;
-    transition-delay: 1s;
+    transition-delay: 0s;
     
     &.main-hero {
 		height: 60vh;
