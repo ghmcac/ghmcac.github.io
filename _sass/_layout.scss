@@ -24,7 +24,7 @@ header {
 	box-sizing: border-box;
 
 	.container {
-		text-align: center;
+		text-align: center ;
 	}
 
 	@media (min-width: $mobile-break) {
@@ -33,7 +33,7 @@ header {
 
 		&.main-hero {
 			height: auto;
-			background-position: calc(50% - 350px) calc(100% + 20px);
+			background-position: center;
 		}
 
 		.container {
