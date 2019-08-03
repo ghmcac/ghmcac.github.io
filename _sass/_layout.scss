@@ -93,7 +93,7 @@ section {
 .logo {
     position: relative;
     height: 40vh;
-    transition: 5s ease-out;
+    transition: opacity 5s ease-out;
     -webkit-transition: 0.2s ease;
     
     &.main-hero {
